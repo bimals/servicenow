@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>GET</http_method>
+        <name>Git Test</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // This is a test for repo
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_44992_gwp/test_source/test</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/test</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-25 21:14:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5122cd92db302200077b5c00cf96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Git Test</sys_name>
+        <sys_package display_value="GWP" source="x_44992_gwp">c0af3852db302200077b5c00cf961934</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GWP">c0af3852db302200077b5c00cf961934</sys_scope>
+        <sys_update_name>sys_ws_operation_5122cd92db302200077b5c00cf96190a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-25 21:14:31</sys_updated_on>
+        <web_service_definition display_value="Test Source">16000592db302200077b5c00cf961996</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
